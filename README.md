@@ -1,7 +1,7 @@
 
 ## Overview
 
-This project uses Loadstring hosting to serve `.lua` files. The hosting service allows you to use `https://gui.rf.gd` as a domain to access and execute `.lua` scripts.
+This project uses github to serve `.lua` files. The hosting service allows you to use `https://gui.rf.gd` as a domain to access and execute `.lua` scripts.
 
 ## How It Works
 
