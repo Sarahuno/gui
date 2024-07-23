@@ -21,11 +21,11 @@ To use the Loadstring host with your `.lua` file, follow these steps:
 3. **Use the URL in Loadstring:**
    - Use the URL in a `loadstring` function to execute your script:
      ```lua
-     loadstring("https://gui.rf.gd?s=FileName.lua")()
+     loadstring(game:HttpGet("https://gui.rf.gd?s=FileName.lua"))()
      ```
 
 ### Example
 
 If you have a file named `example.lua`, you would use:
 ```lua
-loadstring("https://gui.rf.gd?s=example.lua")()
+loadstring(game:HttpGet("https://gui.rf.gd?s=example.lua"))()
